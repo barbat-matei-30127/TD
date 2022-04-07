@@ -1,0 +1,50 @@
+body {
+  margin: 30 px;
+}
+
+select {
+  margin-top: -5 px;
+  padding: 5 px;
+}
+
+ul {
+  list-style: none;
+  display: inline - block;
+  margin: 0 px;
+  margin-bottom: 20 px;
+  margin-top: 0 px;
+  padding: 0 px;
+  padding-right: 10 px;
+}
+input {
+  font-size: 16 px;
+  padding: 10 px;
+  width: 50 px;
+  text-align: center;
+}
+
+.invalid-input {
+  border: 3 px solid orange;
+  -webkit-transition: all 1000 ms linear;
+  -ms-transition: all 1000 ms linear;
+  transition: all 1000 ms linear;
+}
+
+.valid-input {
+  border: 3 px solid green;
+  background-color: green;
+  color: white;
+  -webkit-transition: all 1000 ms linear;
+  -ms-transition: all 1000 ms linear;
+  transition: all 1000 ms linear;
+}
+
+button {
+  margin-top: 10 px;
+  padding: 10 px;
+}
+
+code {
+  background-color: #efffec;
+  margin: 0 px;
+}
